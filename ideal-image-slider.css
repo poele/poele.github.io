@@ -78,6 +78,19 @@
 			transition-timing-function: ease-in;
 	opacity: 0.5;
 }
+
+.iis-effect-fade:active .iis-slide:active {
+	-webkit-transition-property: opacity;
+	   -moz-transition-property: opacity;
+		 -o-transition-property: opacity;
+			transition-property: opacity;
+	-webkit-transition-timing-function: ease-in;
+	   -moz-transition-timing-function: ease-in;
+		 -o-transition-timing-function: ease-in;
+			transition-timing-function: ease-in;
+	opacity: 0.5;
+}
+
 .iis-effect-fade .iis-current-slide {
 	opacity: 1;
 	z-index: 1;
