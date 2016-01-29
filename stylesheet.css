@@ -1,0 +1,327 @@
+
+
+
+body {
+	background: black;
+	color: white;
+	font-family: 'Libre Baskerville', serif;
+}
+
+.row {
+	width: 99.9%;
+}
+
+.topbar {
+	background: white;
+	color: #181818;
+	width: 102%;
+}
+
+.logo {
+	margin-left: 4.5%;
+	text-align: center;
+
+}
+
+
+.top-logo {
+	text-align: center;
+	width: 120%;
+	margin-bottom: -10px;
+}
+
+.picture {
+	width: 100%;
+	height: 300px;
+	margin-top: 5%;
+}
+
+.skills {
+	position: absolute;
+	bottom: 0;
+	right: 8%;
+	text-align: right;
+	font-size: 0.8em;
+	letter-spacing: 0.3em;
+	margin-bottom: 1.5%;
+}
+
+.right-skill, .middle-skill, .left-skill {
+	width: 30%;
+	display: inline;
+	margin: 2px;
+}
+
+
+.middle-skill {
+	border-right: 1px solid #CC9;
+	border-left: 1px solid #CC9;
+}
+
+.main {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+.locations {
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	width: 38%;
+	letter-spacing: -0.1em;
+	font-size: 0.97em;
+}
+
+.NY {
+	text-align: left;
+}
+
+.miami {
+	text-align: center;
+	border-left: 1px solid #CC9;
+	border-right: 1px solid #CC9;
+}
+
+.LA {
+	text-align: right;
+}
+
+hr {
+	width: 70%;
+	border: 0px;
+	height: 1px;
+	background: #000;
+	background-image: linear-gradient(to right, #000, #CC9, #000);
+}
+
+.secondary-titles {
+	font-size: 1.3em;
+	margin-bottom: 4%;
+	margin-top: 5%;
+}
+
+.secondary-text {
+	margin-bottom: 20%;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+
+
+.foot {
+	position: relative;
+	bottom: 0;
+	color: #FFF;
+	width: 100%;
+	text-align: center;
+}
+
+.end {
+	margin-top: 1%;
+}
+
+
+.foot a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 1.1em;
+}
+
+.foot a:hover {
+	font-style: italic;
+}
+
+.credits {
+	margin-left: 20px;
+	font-size: 0.6em;
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+
+	.logo img {
+		width: 250%;
+		margin-bottom: 30%;
+	}
+
+	.bottom-logo img {
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width: 100%;
+	}
+
+	.skills {
+		position: relative;
+		font-size: 0.5em;
+		letter-spacing: 0.05em;
+		width: 100%;
+		margin-bottom: 10px;
+		left: 15px;
+
+	}
+
+	.picture {
+		margin-top: 10%;
+	}
+
+	.locations {
+		font-size: 0.8em;
+		letter-spacing: 0.05em;
+		width: 65%;
+	}
+
+	.foot {
+		width: 104%;
+	}
+
+	.foot a {
+		font-size: 0.8em;
+	}
+
+
+	.end {
+		text-align: center;
+		margin-top: 20px;
+		width: 100%;
+		font-size: 1.3em;
+	}
+
+	.bottom-logo img {
+		width: 40%;
+		margin-bottom: -30px;
+	}
+
+	.credits {
+		width: 95%;
+	}
+
+
+}
+
+@media only screen and (max-width: 850px) {
+	.logo img {
+		margin-left: 150%;
+		margin-bottom: 30%;
+	}
+
+	.skills {
+		width: 100%;
+		text-align: center;
+		margin-right: -50px;
+	}
+
+	.skills div {
+		font-size: 0.8em;
+	}
+
+
+}
+
+@media only screen and (min-width: 451px) and (max-width: 1000px)  {
+/*	.left-skill {
+		border-right: none;
+	}
+
+	.right-skill {
+		border-left: none;
+	}
+*/
+
+.skills {
+	font-size: 0.65em;
+	letter-spacing: 0.15em;
+	margin-top: 50%;
+	bottom: 0;
+}
+
+
+	.secondary-titles {
+		text-align: left;
+	}
+
+	.locations {
+		width: 60%;
+		font-size: 1em;
+		letter-spacing: 0;
+	
+	}
+
+	.end {
+		margin-top: 20px;
+		font-size: 1.1em;
+	}
+
+
+}
+
+
+@media (min-width: 1001px) {
+
+	.secondary-titles {
+		text-align: center;
+	}
+
+
+	.foot {
+		margin-top: 15px;
+		width: 102.5%;
+	}
+
+	.end {
+		text-align: center;
+	}
+}
+
+
+/* mobile view */
+
+
+@media only screen and (max-device-width: 450px) {
+
+		.logo img {
+		margin-left: -10px;
+		width: 150%;
+		margin-bottom: 10px;
+	}
+
+	.bottom-logo img {
+		margin-top: 25px;
+		width: 100%;
+	}
+
+/*	.locations {
+		font-size: 2.5em;
+		
+	}*/
+
+	.main {
+		font-size: 0.9em;
+	}
+
+	.skills {
+		font-size: 0.8em;
+		width: 90%;
+	}
+
+	.end {
+		margin-left: 27%;
+		font-size: 1.4em;
+		width: 500px;
+	}
+
+	.locations {
+		width: 80%;
+	}
+
+	.credits {
+		margin-left: 50px;
+		width: 100%;
+		font-size: 0.5em;
+	}
+
+}
