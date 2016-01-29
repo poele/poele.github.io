@@ -23,6 +23,10 @@ body {
 
 }
 
+#slider {
+	height: 353;
+}
+
 
 .top-logo {
 	text-align: center;
@@ -41,7 +45,7 @@ body {
 	bottom: 0;
 	right: 8%;
 	text-align: right;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	letter-spacing: 0.3em;
 	margin-bottom: 1.5%;
 }
@@ -70,7 +74,7 @@ body {
 	margin-right: auto;
 	clear: both;
 	width: 38%;
-	letter-spacing: -0.1em;
+	letter-spacing: -0.05em;
 	font-size: 0.97em;
 }
 
@@ -97,7 +101,7 @@ hr {
 }
 
 .secondary-titles {
-	font-size: 1.3em;
+	font-size: 14px;
 	margin-bottom: 4%;
 	margin-top: 5%;
 }
@@ -157,7 +161,7 @@ hr {
 
 	.skills {
 		position: relative;
-		font-size: 0.5em;
+		font-size: 0.6em;
 		letter-spacing: 0.05em;
 		width: 100%;
 		margin-bottom: 10px;
@@ -222,7 +226,7 @@ hr {
 
 }
 
-@media only screen and (min-width: 451px) and (max-width: 1000px)  {
+@media only screen and (min-width: 451px) and (max-width: 1043px)  {
 /*	.left-skill {
 		border-right: none;
 	}
@@ -233,7 +237,7 @@ hr {
 */
 
 .skills {
-	font-size: 0.65em;
+	font-size: 0.7em;
 	letter-spacing: 0.15em;
 	margin-top: 50%;
 	bottom: 0;
@@ -260,7 +264,7 @@ hr {
 }
 
 
-@media (min-width: 1001px) {
+@media (min-width: 1044px) {
 
 	.secondary-titles {
 		text-align: center;
@@ -304,7 +308,7 @@ hr {
 	}
 
 	.skills {
-		font-size: 0.8em;
+		font-size: 0.65em;
 		width: 90%;
 	}
 
